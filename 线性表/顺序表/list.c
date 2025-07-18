@@ -65,7 +65,7 @@ bool Delete(List *L,i,int *e){
 }
 
 int Locate(List *L, int e){
-    return binarysearch[L->p, e, 0, L->length-1];
+    return binarysearch(L->p, e, 0, L->length-1);
 }
 
 int Get(List *L,int i){
